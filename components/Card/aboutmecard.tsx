@@ -7,20 +7,20 @@ function AboutMeCard() {
     const [isChecked, setIsChecked] = useState(false);
 
     return (
-        <div className="w-full h-full p-3 z-20 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
+        <div className="w-full h-44 md:h-full p-3 z-20 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
             <div 
                 className={`w-full h-full relative [transform-style:preserve-3d] duration-1000 ${isChecked ? '[transform:rotateY(180deg)]' : ''} hover:cursor-pointer `} 
                 onClick={() => setIsChecked(!isChecked)}>
                 <div className="absolute w-full h-full [backface-visibility:hidden] bg-white rounded-2xl flex flex-row justify-around items-center shadow-lg p-6 ease-in-out duration-200">
                     <Image
-                        className='rounded-full w-28 h-auto hover:scale-[105%] ease-in-out duration-200 hover:cursor-pointer'
+                        className='rounded-full w-20 md:w-28 h-auto hover:scale-[105%] ease-in-out duration-200 hover:cursor-pointer'
                         src={lawrence}
                         alt="Lawrence Liang"
                     />
                     <div className="w-full h-full px-6 flex flex-col items-start justify-between font-exo-2">
-                        <p className="text-lg">Lawrence Liang</p>
-                        <p className="text-md font-semibold">Student in Software Engineering at ÉTS</p>
-                        <a href="mailto:lawrencekaiwei@gmail.com" className="text-blue-400 hover:text-blue-600 hover:scale-[105%] ease-in-out duration-200">lawrencekaiwei@gmail.com</a>
+                        <p className="text-md md:text-lg">Lawrence Liang</p>
+                        <p className="text-sm md:text-md font-semibold">Student in Software Engineering at ÉTS</p>
+                        <a href="mailto:lawrencekaiwei@gmail.com" className="text-sm md:text-md text-blue-400 hover:text-blue-600 hover:scale-[105%] ease-in-out duration-200">lawrencekaiwei@gmail.com</a>
                     </div>
                 </div>
                 <div className="absolute w-full h-full [backface-visibility:hidden] bg-white [transform:rotateY(180deg)] rounded-2xl flex flex-col justify-center items-center shadow-lg p-6">

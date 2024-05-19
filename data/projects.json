@@ -2,17 +2,46 @@
     {
         "id":1,
         "name":"E-Portfolio",
-        "description":"My E-Porfolio",
-        "github":"test",
-        "otherLinks":["test", "test"],
-        "image":""
+        "description":"A creative e-portfolio showcasing my projects and my experiences. Through the years of learning, I've demonstrated some of my best design programming skills in this project.",
+        "github":"https://github.com/LawrenceLiang02/e-portfolio",
+        "otherLinks":["https://lawrenceliang-eportfolio.vercel.app/"],
+        "stacks":["NextJS", "TailwindCSS"],
+        "image":"eportfolio.png"
     },
     {
         "id":2,
-        "name":"E-Portfolio",
-        "description":"My E-Porfolio",
-        "github":"test",
-        "otherLinks":["test", "test"],
-        "image":""
+        "name":"Authentication System",
+        "description":"Advanced authentication using SHA256 encryption and JWT role based authentication, some of the most advanced security features. Users data are stored in HTTP-only cookies when logged in, managing login attempts, logging, and many more features. HTTPS is enabled! ",
+        "github":"https://github.com/LawrenceLiang02/Flask-and-React-Authentication-System",
+        "otherLinks":[],
+        "stacks":["Python Flask", "ReactJS", "MySQL", "TailwindCSS"],
+        "image":"flaskreact_security.png"
+    },
+    {
+        "id":3,
+        "name":"ConUHacks8 - My A-Eye",
+        "description":"A virtual Assistant for visually impaired people. Using Speech-To-Text and Text-To-Speech, the person can ask the AI to describe what is in front of him to visualize the surrounding through words.",
+        "github":"https://github.com/LawrenceLiang02/Flask-and-React-Authentication-System",
+        "otherLinks":["https://my-a-eye.vercel.app/", "https://devpost.com/software/my-a-eye", "https://www.youtube.com/watch?v=MwRFJpxgcDY"],
+        "stacks":["Python Flask", "ReactJS", "GPT4", "TailwindCSS"],
+        "image":"conuhacks8.gif"
+    },
+    {
+        "id":4,
+        "name":"McHacks10 - [3RD PLACE] NutroPNG",
+        "description":"NutroPNG is a web app that helps people identify the food they are consuming to help them diet.",
+        "github":"https://github.com/siwuagain/mchacks_frontend",
+        "otherLinks":["https://devpost.com/software/mchacks-q89avy", "https://www.youtube.com/watch?v=7h_Voib7QuQ"],
+        "stacks":["JS", "TailwindCSS", "Flask", "Google Vision AI"],
+        "image":"NutroPNGLogo.png"
+    },
+    {
+        "id":5,
+        "name":"Wonda Cabinetry",
+        "description":"A website showcasing the catalog and projects of the Wonda Cabinet Inc company. Using ThreeJS, users are able to view 3D products, and assemble them together to see if it is a right fit for their house.",
+        "github":"",
+        "otherLinks":["https://wondacabinetry.com"],
+        "stacks":["NextJS", "TailwindCSS", "ThreeJS", "Blender"],
+        "image":"wondalogo.png"
     }
 ]
