@@ -7,7 +7,7 @@ function AboutMeCard() {
     const [isChecked, setIsChecked] = useState(false);
 
     return (
-        <div className="w-full h-full p-3 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
+        <div className="w-full h-full p-3 z-20 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
             <div 
                 className={`w-full h-full relative [transform-style:preserve-3d] duration-1000 ${isChecked ? '[transform:rotateY(180deg)]' : ''} hover:cursor-pointer `} 
                 onClick={() => setIsChecked(!isChecked)}>

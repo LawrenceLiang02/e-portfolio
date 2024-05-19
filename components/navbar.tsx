@@ -4,8 +4,8 @@ import lawrence from '@/public/lawrence_linkedin.jpg'
 
 function navbar() {
   return (
-    <div className='fixed top-0 left-0 z-40 w-full h-auto px-40 py-2  scroll-smooth'>
-        <div className='text-black w-auto h-auto flex flex-row justify-between items-center px-28 bg-white bg-opacity-100 py-6 shadow-md'>
+    <div className='fixed top-0 left-0 z-40 w-full h-auto px-40 py-2 scroll-smooth'>
+        <div className='text-black w-auto h-auto flex flex-row justify-between items-center px-28 bg-white bg-opacity-80 hover:bg-opacity-90 ease-in-out duration-200 py-6 shadow-md'>
             <a href="/#home" className='flex flex-row justify-between items-center space-x-4'>
                 <Image
                 className='rounded-full w-12 h-12'

@@ -20,8 +20,8 @@ function CAE() {
                 </div>
 
                 <div className={`${isExtendedCAE ? "rotate-90" : "rotate-0"} ease-in-out duration-500`}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-6 h-6 hover:scale-[130%] ease-in-out duration-500 text-slate-500">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6 hover:scale-[130%] ease-in-out duration-500 text-slate-500">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
                 </div>
             
