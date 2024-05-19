@@ -6,6 +6,7 @@
 @tailwind base;
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 @tailwind components;
@@ -18,6 +19,18 @@ html {
 
   .aboutme-skill {
     @apply text-black bg-neutral-300 shadow-md;
+  }
+
+  .project-item {
+    @apply w-96 bg-white rounded-lg h-full shadow-lg p-2;
+  }
+
+  .project-inner-item {
+    @apply w-full bg-blue-100 rounded-lg h-full p-1;
+  }
+
+  .project-inner-inner-item {
+    @apply w-full bg-white rounded-lg h-full p-1;
   }
 }
 

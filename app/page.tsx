@@ -2,7 +2,8 @@ import Image from "next/image";
 import AboutMe from '@/components/Card/aboutmecard'
 import CAE from '@/components/Dropdowns/cae'
 import P4LABS from '@/components/Dropdowns/p4labs'
-
+import Project from "@/components/Projects/project";
+import { getAllProjects } from '@/utils/projects';
 
 export default function Home() {
   const skills = [
@@ -133,7 +134,7 @@ export default function Home() {
 
         <div id="aboutme" className="z-6 snap-start bg-blue-200 relative  w-full h-full flex flex-row items-start justify-center px-[20%] py-32 font-open-sans">
           <div className="flex flex-row w-full h-1/3 absolute top-0 left-0 bg-gradient-to-b from-blue-300 "></div>
-          <div className="flex flex-row w-full h-1/6 absolute bottom-0 left-0 bg-gradient-to-t from-[#f7f7f7]"></div>
+          <div className="flex flex-row w-full h-1/6 absolute bottom-0 left-0 bg-gradient-to-t from-blue-50 "></div>
           <div className="flex flex-col items-center w-full h-full space-y-8">
             <div className="flex flex-row items-start justify-between w-full h-full space-x-16">
               <div className="flex flex-col items-start w-2/5 h-full space-y-4">
@@ -176,12 +177,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="projects" className="snap-start relative bg-[#f7f7f7] w-full h-full flex flex-row items-start justify-center px-[20%] py-32 font-open-sans">
-
+        <div id="projects" className="snap-start relative bg-blue-50 w-full h-full flex flex-col items-start justify-start px-[20%] py-32 font-open-sans space-y-8">
+            <p className="text-5xl font-bold uppercase tracking-widest text-neutral-500 font-roboto w-full z-20">Projects</p>
+{/* 
+            <Project></Project> */}
         </div>
         
         
-        <div id="contactme" className="snap-start relative bg-[#f7f7f7] w-full h-full flex flex-row items-start justify-center px-[20%] py-32 font-open-sans">
+        <div id="contactme" className="snap-start relative bg-blue-50 w-full h-full flex flex-row items-start justify-center px-[20%] py-32 font-open-sans">
           <div className="flex flex-row w-full h-3/4 absolute bottom-0 left-0 bg-gradient-to-t from-green-200"></div>
         </div>
 

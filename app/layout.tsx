@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className + " overflow-hidden scroll-smooth"}>
+      <body className={inter.className + " overflow-x-hidden scroll-smooth"}>
         <Navbar></Navbar>
         {children}
         </body>
