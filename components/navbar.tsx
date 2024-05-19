@@ -1,9 +1,9 @@
-'use client'
+"use client"
 import React, { useState } from 'react'
 import Image from "next/image";
 import lawrence from '@/public/lawrence_linkedin.jpg'
 
-function navbar() {
+function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   
   function setFalse() {
@@ -56,4 +56,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
