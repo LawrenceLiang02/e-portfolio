@@ -6,6 +6,11 @@ import lawrence from '@/public/lawrence_linkedin.jpg'
 function navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   
+  function setFalse() {
+    setMobileOpen(false);
+    document.body.style.overflow = 'unset';
+  }
+
   return (
     <div className='fixed top-0 right-0 z-40 w-full h-auto md:px-40 md:py-2 md:scroll-smooth'>
         <div className='hidden text-black w-auto h-auto md:flex flex-row justify-between items-center px-28 bg-white bg-opacity-80 hover:bg-opacity-90 ease-in-out duration-200 hover:py-6 py-3 shadow-md'>
@@ -36,15 +41,15 @@ function navbar() {
           </div>
 
           <div className = {`z-30 flex flex-row items-start justify-end h-full visible md:invisible absolute inset-y-0 w-full min-h-screen right-0 transform duration-700 ease-out  ${mobileOpen ? '-translate-x-0' : 'translate-x-full'}`}>
-            <div className='flex flex-col justify-start items-end w-2/5 h-full'  onClick={() => setMobileOpen(!mobileOpen)}>
+            <div className='flex flex-col justify-start items-end w-2/5 h-full'  onClick={setFalse}>
             </div>
 
             <div className=' w-3/5 bg-white bg-opacity-90 h-full flex flex-col justify-center items-center font-exo-2'>
-                <a className='navbar-item' href="/#aboutme">About Me</a>
-                <a className='navbar-item' href="/#projects">Projects</a>
-                <a className='navbar-item' href="/#contactme">Contact Me</a>
+                <a className='navbar-item-mobile' href="/#aboutme">About Me</a>
+                <a className='navbar-item-mobile' href="/#projects">Projects</a>
+                <a className='navbar-item-mobile' href="/#contactme">Contact Me</a>
                 <div className="h-1 w-1/2 bg-neutral-300 rounded-full"> </div>
-                <button className='navbar-item'>CV</button>
+                <button className='navbar-item-mobile'>CV</button>
             </div>
           </div>
     </div>

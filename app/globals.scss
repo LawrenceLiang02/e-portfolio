@@ -50,6 +50,14 @@
     transform: rotate(-45deg);
     z-index: 5;
 
+    @media (max-width: 768px) {
+      overflow: hidden; 
+      height: 100%;
+      width:100%;
+      top: 0;
+      left: 0;
+      transform: rotate(0deg);
+    }
     
   }
   
