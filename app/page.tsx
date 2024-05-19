@@ -165,7 +165,7 @@ export default function Home() {
                   <p className="text-4xl font-bold uppercase tracking-widest text-neutral-500 font-roboto w-full">Skills</p>
                   <div className="flex flex-row flex-wrap justify-normal items-start font-exo-2 text-lg w-full h-full shadow-lg bg-white rounded-2xl p-6 space-x-1 space-y-1 md:space-y-0">
                     {skills.map((skill, index) => (
-                      <div key={index} className="bg-[#e9e9e9] rounded-lg py-1 px-2 text-neutral-700 font-semibold md:text-md text-sm"> {/* Apply specific style to each skill */}
+                      <div key={index} className="bg-[#e9e9e9] rounded-lg py-1 px-2 text-neutral-700 font-semibold md:text-lg text-sm"> {/* Apply specific style to each skill */}
                         {skill}
                       </div>
                     ))}
