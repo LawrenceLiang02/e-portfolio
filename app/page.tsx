@@ -94,6 +94,7 @@ export default function Home() {
           </div>
         </div>
           <div className="flex flex-row w-full h-3/4 absolute bottom-0 left-0 bg-gradient-to-t from-blue-300 "></div>
+          <div className="flex flex-row w-full h-1/6 absolute top-0 left-0 bg-gradient-to-b from-[#212546] "></div>
           <div className="flex flex-col items-center justify-around z-20 space-y-8">
             <div className="flex flex-col space-y-4">
               <div className="text-white z-20 flex flex-row items-end space-x-2 px-8">
