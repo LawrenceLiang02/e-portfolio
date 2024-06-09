@@ -37,7 +37,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="md:snap-y snap-none md:snap-mandatory h-screen w-full overflow-y-scroll z-20">
+    <div className="lg:snap-y snap-none lg:snap-mandatory h-screen w-full overflow-y-scroll z-20">
 
         <div id="home" className="snap-center w-full h-full relative flex items-center z-10 justify-center font-exo-2 ">
         <div className="flex flex-row w-full h-full absolute top-0 left-0 bg-[#434b8f] text-[#FFD700] ">
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
         </div> */}
 
-        <div id="aboutme" className="z-6 snap-start bg-blue-200 relative w-full h-auto md:h-full  min-h-screen flex flex-row items-start justify-center pt-20 p-4 md:px-[20%] md:py-32 font-open-sans">
+        <div id="aboutme" className="z-6 snap-start bg-blue-200 relative w-full h-auto md:h-full  min-h-screen flex flex-row items-start justify-center pt-20 p-4 lg:px-[20%] lg:py-32 font-open-sans">
           <div className="flex flex-row w-full h-1/3 absolute top-0 left-0 bg-gradient-to-b from-blue-300 "></div>
           <div className="flex flex-row w-full h-1/6 absolute bottom-0 left-0 bg-gradient-to-t from-blue-50 "></div>
           <div className="flex flex-col items-center w-full h-full space-y-8">
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="projects" className="snap-start relative bg-blue-50 w-full min-h-screen md:h-full flex flex-col items-start justify-start px-4 md:px-[20%] py-32 font-open-sans space-y-8">
+        <div id="projects" className="snap-start relative bg-blue-50 w-full min-h-screen md:h-full flex flex-col items-start justify-start px-4 lg:px-[20%] py-32 font-open-sans space-y-8">
             <p className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-neutral-500 font-roboto w-full z-20">Projects</p>
 
             <Project></Project>

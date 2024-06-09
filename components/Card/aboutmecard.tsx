@@ -7,13 +7,13 @@ function AboutMeCard() {
     const [isChecked, setIsChecked] = useState(false);
 
     return (
-        <div className="w-full h-44 md:h-full p-3 z-20 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
+        <div className="w-full h-44 lg:h-full p-3 z-20 pr-6 group perspective hover:scale-[105%] ease-in-out duration-200">
             <div 
                 className={`w-full h-full relative [transform-style:preserve-3d] duration-1000 ${isChecked ? '[transform:rotateY(180deg)]' : ''} hover:cursor-pointer `} 
                 onClick={() => setIsChecked(!isChecked)}>
                 <div className="absolute w-full h-full [backface-visibility:hidden] bg-white rounded-2xl flex flex-row justify-around items-center shadow-lg p-6 ease-in-out duration-200">
                     <Image
-                        className='rounded-full w-20 md:w-28 h-auto hover:scale-[105%] ease-in-out duration-200 hover:cursor-pointer'
+                        className='rounded-full w-20 lg:w-24 h-auto hover:scale-[105%] ease-in-out duration-200 hover:cursor-pointer'
                         src={lawrence}
                         alt="Lawrence Liang"
                     />
